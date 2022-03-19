@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    margin-top: 4px;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+#sudo{
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+#sudo td{
+    text-align: center;
+}
+
+#sudo td:nth-child(3), #sudo td:nth-child(6){
+    border-right: 7px solid white;
+}
+
+#sudo tr:nth-child(3), #sudo tr:nth-child(6){
+    border-bottom: 7px solid white;
+}
+
+@media screen and (max-width: 500px) {
+    #sudo td{
+        border: 3px solid white;
+        display: relative;
+        height: 5vh;
+        width: 5vh;
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #sudo td{
+        border: 3px solid white;
+        display: relative;
+        height: 7vh;
+        width: 7vh;
+        font-size: xx-large;
+    }
+}
+
+#sudo td:hover{
+    background-color: rgb(50, 50, 50) !important;
+}
+
+#nums{
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+#nums td{
+    text-align: center;
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 500px) {
+    #nums td{
+        border: 3px solid white;
+        display: relative;
+        height: 5vh;
+        width: 5vh;
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #nums td{
+        border: 3px solid white;
+        display: relative;
+        height: 7vh;
+        width: 7vh;
+        font-size: xx-large;
+    }
+}
+
+#nums td:hover{
+    background-color: rgb(50, 50, 50) !important;
+}
+
+#options{
+    margin-top: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+}
+
+#options td{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#options td:hover{
+    background-color: rgb(50, 50, 50) !important;
+}
+
+@media screen and (max-width: 500px) {
+    #options td{
+        border: 3px solid white;
+        display: relative;
+        height: 5vh;
+        width: 5vh;
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    #options td{
+        border: 3px solid white;
+        display: relative;
+        height: 7vh;
+        width: 7vh;
+        font-size: xx-large;
+    }
+}
